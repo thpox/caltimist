@@ -1,0 +1,22 @@
+[General]
+user=calusr
+password=pAssw0rd
+public_holidays=http://localhost/static/pubhol.ics
+
+[User]
+{foo}
+cal = https://foousr:barPaSs@some.site/path/to/foocal.ics
+vacation = 30
+monthhours = 168
+
+{jack}
+cal = http://localhost/path/to/jackcal.ics
+vacation = 20
+monthhours = 35
+
+[Projects]
+{housekeeping}
+
+{projectX}
+onsite = 12.34
+remote = 45.67
